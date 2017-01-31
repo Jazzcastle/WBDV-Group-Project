@@ -4,21 +4,56 @@ main {
     padding-top: 80px;
     h1 {
         font-family: 'Raleway', sans-serif;
-        font-size: 25px;
+        font-size: 30px;
         color: $tertiarycolor;
-        margin: 0 0 20px 15px;
+        margin: 0 0 80px 30px;
     }
 }
 
 
 
 .content {
-    height: 500px;
     background: $secondarycolor;
     overflow: hidden;
+    padding: 0 30px 0;
+    margin-bottom: 30px;
+    h3 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        color: $primarycolor;
+        margin-bottom: 20px;
+    }
     p {
         font-family: 'Raleway', sans-serif;
         color: $primarycolor;
         text-align: justify;
+    }
+    ul {
+        padding-top: 4px;
+        margin: 0;
+        li {
+            font-family: 'Raleway', sans-serif;
+            color: $primarycolor;
+        }
+        i {
+            font-size: 30px;
+        }
+        h2 {
+            font-family: 'Raleway', sans-serif;
+            color: $primarycolor;
+            font-size: 20px;
+            font-weight: 400;
+            margin-bottom: 40px;
+        }
+    }
+    .image-container {
+        position: relative;
+        overflow: hidden;
+        min-width: 250px;
+        height: 300px;
+        img {
+            max-width: inherit;
+        }
     }
 }
