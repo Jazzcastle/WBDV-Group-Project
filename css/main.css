@@ -1,3 +1,45 @@
+/*******************************************************************************
+    HEADER
+*******************************************************************************/
+header {
+  background: #181818;
+  height: 90px; }
 
+.logo-container {
+  display: inline-block;
+  width: 100px;
+  height: 100px; }
+  .logo-container h1 {
+    font-family: 'Oswald';
+    color: #ffdf08;
+    line-height: 90px;
+    font-size: 50px; }
+
+.desktop-nav ul {
+  float: right;
+  margin-left: 0;
+  height: 100%; }
+.desktop-nav li {
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-left: 20px;
+  line-height: 90px; }
+.desktop-nav a {
+  color: white;
+  text-decoration: none; }
+
+.hamburger-container {
+  position: absolute;
+  top: 19px;
+  right: 20px;
+  color: white;
+  font-size: 25px; }
+
+.wrapper {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=main.css.map */

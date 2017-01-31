@@ -1,43 +1,63 @@
 /*******************************************************************************
     HEADER
 *******************************************************************************/
-
+@import 'colors';
 header {
-    background: #3cc0d6;
-    padding-top: 25px;
-    height: 150px;
+    background: $primarycolor;
+
+    height: 90px;
 }
 
-@media (max-width:639px) {
-    header {
-        background: #3cc0d6;
-        padding-top: 12px;
-        height: 75px;
-    }
-}
+// @media (max-width:639px) {
+//     header {
+//         background: $primarycolor;
+//         padding-top: 12px;
+//         height: 75px;
+//     }
+// }
 
 .logo-container {
     display: inline-block;
     width: 100px;
     height: 100px;
-}
 
-@media (max-width:639px) {
-    .logo-container {
-        display: inline-block;
-        width: 50px;
-        height: 50px;
+    h1{
+      font-family: 'Oswald';
+      color: $accentcolor;
+      line-height: 90px;
+      font-size: 50px;
     }
 }
 
-.off-canvas {
-    background: #080817;
+
+
+.desktop-nav {
+    ul{
+        float: right;
+        margin-left: 0;
+      height: 100%;
+    }
     li {
-        margin: 10px 0;
+      height: 100%;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        display: inline-block;
+        margin-left: 20px;
+        line-height: 90px;
+
     }
     a {
-        font-family: 'Roboto', sans-serif;
-        font-weight: 700;
-        color: rgba(255, 255, 255, 0.8)
+        color: white;
+        text-decoration: none;
     }
+}
+
+
+
+.hamburger-container {
+    position: absolute;
+    top: 19px;
+    right: 20px;
+    color: white;
+    font-size: 25px;
 }
