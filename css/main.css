@@ -37,9 +37,25 @@ header {
   color: white;
   font-size: 25px; }
 
+main {
+  padding-top: 80px; }
+  main h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    color: #818181;
+    margin: 0 0 20px 15px; }
+
+.content {
+  height: 500px;
+  background: #fff;
+  overflow: hidden; }
+  .content p {
+    font-family: 'Raleway', sans-serif;
+    color: #181818;
+    text-align: justify; }
+
 .wrapper {
   width: 80%;
-  max-width: 1100px;
   margin: 0 auto; }
 
 /*# sourceMappingURL=main.css.map */
