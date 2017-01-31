@@ -4,8 +4,16 @@
 @import 'colors';
 header {
     background: $primarycolor;
-
+    position: fixed;
+    width: 100%;
     height: 90px;
+    z-index: 1000;
+}
+
+.nav-wrapper{
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 // @media (max-width:639px) {
@@ -19,13 +27,14 @@ header {
 .logo-container {
     display: inline-block;
     width: 100px;
-    height: 100px;
+
 
     h1{
       font-family: 'Oswald';
       color: $accentcolor;
       line-height: 90px;
       font-size: 50px;
+      margin: 0 0;
     }
 }
 
@@ -60,4 +69,69 @@ header {
     right: 20px;
     color: white;
     font-size: 25px;
+}
+
+.mobile-menu{
+  width: 100%;
+  height: 60px;
+  background-color: $accentcolor;
+
+
+  ul{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin: 0 0;
+    text-align: center;
+
+    li{
+      display: inline-block;
+      width: 20%;
+      margin-left: -8px;
+      margin: 0 0;
+      text-align: center;
+      line-height: 60px;
+
+
+      a{
+        color: $primarycolor;
+        font-family: 'Oswald';
+      }
+    }
+  }
+}
+
+.close-menu{
+  position: absolute;
+  top: 30px;
+  transition: top 0.3s cubic-bezier(.54,.15,.37,.98);
+}
+
+.open-menu{
+  position: absolute;
+  top: 90px;
+  transition: top 0.3s cubic-bezier(.54,.15,.37,.98);
+}
+
+
+@media (max-width: 430px){
+  .mobile-menu{
+    height: 120px;
+    ul{
+      li{
+        width: 40%;
+      }
+    }
+  }
+  .close-menu{
+    position: absolute;
+    top: -90px;
+    transition: top 0.3s cubic-bezier(.54,.15,.37,.98);
+  }
+}
+
+@media (min-width:1023px){
+  .mobile-menu{
+    display: none;
+  }
 }
