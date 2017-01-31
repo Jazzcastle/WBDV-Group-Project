@@ -1,0 +1,21 @@
+/*******************************************************************************
+    DESKTOP NAV
+*******************************************************************************/
+
+.desktop-nav {
+    ul{
+        float: right;
+        margin-left: 0;
+        padding-top: 80px;
+    }
+    li {
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        display: inline-block;
+        margin-left: 20px;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
