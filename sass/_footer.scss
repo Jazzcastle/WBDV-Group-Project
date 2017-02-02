@@ -1,6 +1,10 @@
 @import 'colors';
 
 footer {
-    height: 150px;
+    height: 200px;
     background: $primarycolor;
+    .footer-content {
+        background: grey;
+        height: 120px;
+    }
 }
