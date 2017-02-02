@@ -1,9 +1,12 @@
 @import 'header';
 @import 'colors';
 @import 'footer';
+@import 'content';
+@import 'hero';
+
 
 .wrapper{
   width: 80%;
-  max-width: 1100px;
+  // max-width: 1100px;
   margin: 0 auto;
 }
