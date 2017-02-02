@@ -1,0 +1,29 @@
+.home-contact{
+  max-width: 1000px;
+  margin: 20px auto;
+  border-top: solid 4px $accentcolor;
+  border-bottom: solid 4px $accentcolor;
+  padding: 20px 0;
+
+  h1{
+    color: $primarycolor;
+    font-size: 40px;
+    font-family: 'Montserrat';
+  }
+  th{
+    width: 30%;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    color: $primarycolor;
+  }
+  td{
+
+    input, textarea{
+      width: 80%;
+      margin: 10px auto;
+    }
+    textarea{
+      min-height: 100px;
+    }
+  }
+}
