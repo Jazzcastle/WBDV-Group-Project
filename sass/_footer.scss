@@ -1,10 +1,43 @@
 @import 'colors';
 
 footer {
-    height: 200px;
+    padding-top: 60px;
+    // height: 250px;
     background: $primarycolor;
-    .footer-content {
-        background: grey;
-        height: 120px;
+}
+
+.footer-content {
+    height: 120px;
+    .footer-info {
+        text-align: center;
+        i {
+            font-size: 25px;
+            color: $tertiarycolor;
+        }
+        p {
+            margin-top: 10px;
+            font-family: 'Raleway', sans-serif;
+            font-size: 15px;
+            color: $tertiarycolor;
+        }
+    }
+}
+
+.sm-icons {
+    ul {
+        list-style: none;
+        text-align: center;
+        margin: 30px 0 80px 40px;
+        li {
+            display: inline-block;
+            font-family: 'Raleway', sans-serif;
+            font-size: 15px;
+            color: $tertiarycolor;
+            margin: 0 15px 0;
+            i {
+                font-size: 25px;
+                color: $tertiarycolor;
+            }
+        }
     }
 }
