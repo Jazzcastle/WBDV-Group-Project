@@ -1,0 +1,25 @@
+.heading-section{
+
+  width: 100%;
+  padding: 30px 15%;
+  background: $tertiarycolor;
+
+  h2{
+    font-family: 'Montserrat';
+    font-size: 30px;
+    color: $accentcolor;
+  }
+}
+
+.contact-hero {
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+
+    background: url('../img/contact-hero.jpg');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
