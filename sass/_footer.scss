@@ -1,0 +1,10 @@
+@import 'colors';
+
+footer {
+    height: 200px;
+    background: $primarycolor;
+    .footer-content {
+        background: grey;
+        height: 120px;
+    }
+}
