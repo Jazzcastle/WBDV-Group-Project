@@ -27,3 +27,14 @@
     }
   }
 }
+
+@media (max-width: 500px) {
+  .home-contact{
+    th{
+      display: block;
+    }
+    td{
+      display: block;
+    }
+  }
+}
